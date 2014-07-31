@@ -127,7 +127,7 @@ nav {
 
 .top-nav-container .logo a {
   text-decoration: none;
-  color: rgb(200, 77, 53);
+  color: #000000;
 }
 
 .top-nav-container .beta-tag {
@@ -140,7 +140,7 @@ nav {
 
 .top-nav-container .moto {
   position: relative;
-  color: rgb(200, 77, 53);
+  color: #000000;
   font-size: 11px;
   left: -127px;
   top: 42px;
