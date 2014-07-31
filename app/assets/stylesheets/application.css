@@ -24,8 +24,8 @@ html, body, header, nav, section, main, div, h1, h2, h3, ul, li, p, a, figure, f
 }
 
 body {
-  font-family: 'Roboto', arial, sans-serif;
-  background-color: rgb(229, 229, 229);
+  font-family: 'Calibri', arial, sans-serif;
+  background-color: #F8F8F8;
 }
 
 ul {
@@ -117,7 +117,7 @@ nav {
 }
 
 .top-nav-container .logo {
-  float: left;
+  float: center;
   padding: 0 0 0 20px;
   font-size: 45px;
   font-weight: 100;
@@ -126,6 +126,21 @@ nav {
 
 
 .top-nav-container .logo a {
+  text-decoration: none;
+  color: #000000;
+}
+
+
+.top-nav-container .underlogo {
+  float: center;
+  padding: 0 0 0 20px;
+  font-size: 17px;
+  font-weight: 100;
+}
+
+
+
+.top-nav-container .underlogo a {
   text-decoration: none;
   color: #000000;
 }
@@ -139,7 +154,7 @@ nav {
 }
 
 .top-nav-container .moto {
-  position: relative;
+  float: center;
   color: #000000;
   font-size: 11px;
   left: -127px;

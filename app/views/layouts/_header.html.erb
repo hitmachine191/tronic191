@@ -4,8 +4,9 @@
     <div class="top-nav-container group">
       <!-- <h1 class="logo"><a href="<%= root_url %>">PicsCasa</a></h1> -->
       <h1 class="logo"><a href="/#/">Photo191</a></h1>
-      <span class="moto">share beautiful pictures</span>
+      <h1 class="underlogo"><a href="/#/">Share beautiful pictures</a></h1>
 
+ 
       <ul class="top-right-nav group">
         <% if signed_in? %>
         <!-- <li>
@@ -19,7 +20,7 @@
             <% end %>
           </ul>
         </li> -->
-          <!-- .limit(5) on notifications would probably be a good idea -->
+          <!-- .limit(5)  -->
         <li class="user-dropdown">
           <img class="avatar nav-avatar" src="<%= current_user.avatar.url(:thumb) %>">
           <ul class="user-dropdown-items">
@@ -39,11 +40,11 @@
 
     <div class="bottom-nav-container group">
       <ul class="middle-nav group">
-        <li><a href="/#/albums/public">Public Albums</a></li>
+        <li><a href="/#/albums/public">Photo Feed</a></li>
         <% if signed_in? %>
-        <li><a href="/#/albums">My Albums</a></li>
-        <li><a href="/#/photos">My Photos</a></li>
-        <li><a href="/#/tags">My Tags</a></li>
+        <li><a href="/#/albums">Albums</a></li>
+        <li><a href="/#/photos">Photos</a></li>
+        <li><a href="/#/tags">Tags</a></li>
         <% end %>
 
 
