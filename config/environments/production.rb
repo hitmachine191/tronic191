@@ -92,4 +92,7 @@ Rails.application.configure do
   config.action_mailer.delivery_method ||= :smtp
   config.action_mailer.default_url_options = { host: 'photo191.herokuapp.com' }
   
+  config.action_controller.asset_host = "//#{ENV['FOG_DIRECTORY']}.s3.amazonaws.com"
+
+  
 end
